@@ -133,6 +133,7 @@ nav:hover{
     bottom: 1.8rem;
     left: 0;
     right: 0;
+    cursor: pointer;
     text-align: center;
 }
 
@@ -160,3 +161,14 @@ button{
     /* align-items: space-between; */
     /* justify-content: space-between; */
 }
+
+.btn.moon.btn-dark{
+    background-color: black;
+    color:white;
+}
+
+.btn.moon.btn-light{
+    background-color: white;
+    color:black;
+}
+

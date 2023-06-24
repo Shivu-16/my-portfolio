@@ -3,7 +3,7 @@ import './Projects.css';
 import { ReactComponent as ArrowIcon } from './Icons/chevron-down-solid.fd5f90d259cad6aba6e19ae5618fdb72.svg';
 import shivifyImage from './Icons/Screenshot 2023-06-24 213546.png'
 import sheaterImage from './Icons/Screenshot 2023-06-24 214030.png'
-import tectUtilesImage from './Icons/Untitled design (14).3e5b8396bf4f23108bb9.png'
+import tectUtilesImage from './Icons/Screenshot 2023-06-24 223002.png'
 
 
 const Projects = forwardRef ((props,ref) => {

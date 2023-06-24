@@ -33,6 +33,13 @@ const Navbar = forwardRef ((props,ref) =>  {
   //   x.style.transform ='rotate(360deg) scale(0)';
   // }
 
+  const handleCopy = (event) =>{
+    var text1 = "https://shivu-16.github.io/my-portfolio/"
+    text1.select()
+    navigator.clipboard.writeText(text1.value)
+    props.showAlert("Text copied to clipboard ! Paste Anywhere", 'success')
+}
+
   return (
     <>
     <section className="navbar" id="navbar" ref={ref}>
@@ -55,6 +62,7 @@ const Navbar = forwardRef ((props,ref) =>  {
                         height: "1.5em",
                         marginRight: "25px",
                         marginLeft: "15px",
+                        fill:"white",
                       }}
                     />{" "}
                     <SunIcon className="moonIcon" id='sunIconSVG'
@@ -65,6 +73,7 @@ const Navbar = forwardRef ((props,ref) =>  {
                         marginLeft: "15px",
                         position:"absolute",
                         // fill:"yellow",
+                        fill:"black",
                         transform:"scale(0)",
                       }}
                     />
@@ -134,6 +143,7 @@ const Navbar = forwardRef ((props,ref) =>  {
             <ShareIcon
               className="social_share"
               style={{ width: "1.5em", height: "1.5em" }}
+              onClick={handleCopy}
             />
           </div>
         </nav>
