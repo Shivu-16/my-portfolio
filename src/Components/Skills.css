@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    /* font change to be added */
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Kalam', cursive;
+    /* background-color: #D7F4FB ; */
+}
+
+.section{
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+.skills_container{
+    grid-template-columns: 360px 320px;
+    column-gap: 3rem;
+    justify-content: center ;
+
+}
+
+.skills_header{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.skills_icon,.skills_arrow{
+    font-size: 2rem;
+    color: #012557;
+}
+
+.arrow_icon{
+    margin-left: auto;
+    fill:#012557;
+}
+
+
+.skills_title{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.skills_title h3{
+    margin-bottom: 10px
+}
+
+.skills_bar, .skills_percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills_bar{
+    background-color: #a5c0c7;
+    margin-bottom: 10px;
+}
+
+.skills_percentage{
+    display: block;
+    background-color: #012557;
+}
+
+.skills_group#sports .skills_bar , .skills_group#wonder .skills_bar {
+    background-color: transparent;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+    height: auto;
+    border-radius: .25rem;
+} 
+
+.skills_group#sports .skills_title h3 , .skills_group#wonder .skills_title h3{
+    margin-bottom: 0px;
+}
+
+
+.skills_active .arrow_icon{
+    transform: rotate(-90deg);
+    transition: 0.5s;
+}
+
+.skills_content [data-content]{
+    display: none;
+}
+
+.skills_content .skills_active[data-content]{
+    display: block;
+    transform: 0.5s;
+}
+

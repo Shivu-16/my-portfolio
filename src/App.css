@@ -1,3 +1,19 @@
+
+/* .section{
+  overflow-y: hidden;
+} */
+
+:root{
+  --gradient:linear-gradient(
+      45deg,
+      #D7F4FB,#caf1de,#e1f8dc,#fef8dd,#ffe7c7,pink,#f7d8ba,#acddde
+  )
+}
+
+body{
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +51,78 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+::-webkit-scrollbar{
+  width: .70rem;
+  background: var(--gradient);
+  border-radius: 0.55rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #282c34;
+  border-radius: .5rem;
+}
+
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.lightOne{
+  background-color: #caf1de;
+}
+
+.lightTwo{
+  background-color: #e1f8dc;
+}
+
+.lightThree{
+  background-color: #fef8dd;
+}
+
+.lightFour{
+  background-color: #ffe7c7;
+}
+
+.lightSeven{
+  background-color: #acddde;
+}
+
+.lightSix{
+  background-color: pink;
+}
+
+.lightFive{
+  background-color: #f7d8ba;
+}
+
+.darkOne{
+  background-color: #161616;
+  color: #f6f9ff;
+}
+
+.darkTwo{
+  background-color: grey;
+}
+
+.darkThree{
+  background-color: rgb(133, 7, 7);
+}
+
+.darkFour{
+  background-color: rgb(16, 7, 7);
+}
+
+.darkSeven{
+  background-color: rgba(0, 0, 0, 0.703);
+}
+
+.darkSix{
+  background-color: rgb(6, 17, 17);
+}
+
+.darkFive{
+  background-color: rgb(12, 16, 12);
 }

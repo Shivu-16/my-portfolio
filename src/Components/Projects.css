@@ -1,0 +1,122 @@
+.section{
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+.arrows_icon{
+    margin: none;
+    fill:#012557;
+}
+
+.projects_container{
+    /* margin-left: 70px; */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    /* grid-template-columns: repeat(3,330px); */
+}
+
+.projects_details ul li{
+    padding: 0;
+    list-style: inside circle;
+}
+
+.projects_details ul li a{
+    display: inline-block;
+    padding: 0;
+}
+
+.projects_container > * {
+    flex-basis: 300px; /* Set the desired width for all columns */
+  }
+
+.projects_filters{
+    color: #012557;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.projects_items{
+    cursor: pointer;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.projects_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #a5c0c7;
+    border-radius: 0.5rem;
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.projects_titles{
+    margin-top: 20px;
+}
+
+.projects_img{
+    justify-self: center;
+    align-items: center;
+    /* margin: 20px; */
+    border: 3px solid ;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.active_work{
+    background-color: #fef8dd;
+    color:#c68642;
+}
+
+.projects_details{
+    display: none;
+}
+
+.projects_button{
+    padding-left: 22px;
+    width: 100px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    background-color: #ffdbac;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.projects_button:hover{
+    background-color: #ffdbac;
+    color: #c68642;
+    transition: 0.4s ;
+    transform: scale(1.5);
+}
+
+.projects_card{
+    display: none;
+}
+
+.projects_container .active_work{
+    transition: 1s;
+    display: flex;
+
+}
+
+.projects_button a{
+    position: inherit;
+    padding: 0;
+    width: 100px;
+    background-color: #ffdbac;
+    color: #c68642;
+    display: inline;
+    font-size: inherit;
+}
