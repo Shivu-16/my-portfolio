@@ -27,17 +27,17 @@ const About = forwardRef ((props,ref) =>  {
                     <div className='about_box'>
                         <AboutIcon className='about_icon' style={{ width: '1.2em', height: '1.2em' }}/>
                         <h3 className='about_title'>Experience</h3>
-                        <span className='about_subtiitle'>12 + years</span>
+                        <span className='about_subtiitle'>2 + years</span>
                     </div>
                     <div className='about_box'>
                         <AboutIcon className='about_icon' style={{ width: '1.2em', height: '1.2em' }}/>
                         <h3 className='about_title'>Completed</h3>
-                        <span className='about_subtiitle'>48 + projects</span>
+                        <span className='about_subtiitle'>6 + projects</span>
                     </div>
                     <div className='about_box'>
                         <AboutIcon className='about_icon' style={{ width: '1.2em', height: '1.2em' }}/>
                         <h3 className='about_title'>Support</h3>
-                        <span className='about_subtiitle'>online 24/7</span>
+                        <span className='about_subtiitle'>Ready to work</span>
                     </div>
                 </div>
                 <a href={myPdf} className="button">

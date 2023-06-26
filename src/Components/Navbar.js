@@ -34,10 +34,11 @@ const Navbar = forwardRef ((props,ref) =>  {
   // }
 
   const handleCopy = (event) =>{
-    var text1 = "https://shivu-16.github.io/my-portfolio/"
-    text1.select()
-    navigator.clipboard.writeText(text1.value)
-    props.showAlert("Text copied to clipboard ! Paste Anywhere", 'success')
+    // var text1 = "https://shivu-16.github.io/my-portfolio/"
+    // text1.select()
+    navigator.clipboard.writeText(' https://shivu-16.github.io/my-portfolio/ ')
+
+    // props.showAlert("Text copied to clipboard ! Paste Anywhere", 'success')
 }
 
   return (

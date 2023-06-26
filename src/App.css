@@ -71,34 +71,43 @@ body {
 }
 
 .lightOne{
+  transition: 1s;
   background-color: #caf1de;
 }
 
 .lightTwo{
+  transition: 1s;
+
   background-color: #e1f8dc;
 }
 
 .lightThree{
+  transition: 1s;
   background-color: #fef8dd;
 }
 
 .lightFour{
+  transition: 1s;
   background-color: #ffe7c7;
 }
 
 .lightSeven{
+  transition: 1s;
   background-color: #acddde;
 }
 
 .lightSix{
+  transition: 1s;
   background-color: pink;
 }
 
 .lightFive{
+  transition: 1s;
   background-color: #f7d8ba;
 }
 
 .darkOne{
+  transition: 1s;
   background-color: #161616;
   color: #f6f9ff;
 }

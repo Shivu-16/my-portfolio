@@ -95,8 +95,8 @@ const Main = forwardRef((props, ref) => {
                 More About Me
               </a>
             </div>
-            <div className="my_info">
-              <div className="info_item">
+            <div className="my_info" >
+              <div className="info_item" onClick={handleFBClick}>
                 <FBIcon
                   className="info_icon Facebook"
                   style={{ width: "1.5em", height: "1.5em" }}
@@ -107,7 +107,7 @@ const Main = forwardRef((props, ref) => {
                   <span className="info_subtitle">Shivu Sharma</span>
                 </div>
               </div>
-              <div className="info_item">
+              <div className="info_item" onClick={handleWhatsappClick}>
                 <WhatsAppIcon
                   className="info_icon Whatsapp"
                   style={{ width: "1.5em", height: "1.5em" }}
@@ -118,7 +118,7 @@ const Main = forwardRef((props, ref) => {
                   <span className="info_subtitle">+91 7357 622 773</span>
                 </div>
               </div>
-              <div className="info_item">
+              <div className="info_item" onClick={handleGmailClick}>
                 <GmailIcon
                   className="info_icon Email"
                   style={{ width: "1.5em", height: "1.5em" }}
