@@ -9,9 +9,10 @@ import { ReactComponent as HomeIcon } from "./Icons/house-chimney-solid.9699c555
 import { ReactComponent as AboutIcon } from "./Icons/user-solid.25c7a2c4478e96f8be7eddc9f7c01f5b.svg";
 import { ReactComponent as ProjectsIcon } from "./Icons/book-solid.0619316f07ac60184fe211bfcd95cc9e.svg";
 import { ReactComponent as ContactIcon } from "./Icons/address-book-solid.3ba9d1a6ef4640fdd2e3f23412100019.svg";
-import { ReactComponent as ServicesIcon } from "./Icons/briefcase-solid.ae66dae652e7b28dacfe39586cfe1c43.svg";
+// import { ReactComponent as ServicesIcon } from "./Icons/briefcase-solid.ae66dae652e7b28dacfe39586cfe1c43.svg";
 import { ReactComponent as ShareIcon } from "./Icons/share-nodes-solid.5040f8169ff7564d7d7ab24f44c81725.svg";
 import { ReactComponent as SkillsIcon } from "./Icons/ranking-star-solid.efde4640b3683047e5472b2dd197d109.svg";
+import { ReactComponent as CertifyIcon } from "./Icons/certificate-diploma-svgrepo-com.svg";
 
 //<MoonIcon className='moon' style={{ width: '1em', height: '1em' }}/>
 
@@ -78,7 +79,7 @@ const Navbar = forwardRef ((props,ref) =>  {
                         transform:"scale(0)",
                       }}
                     />
-                    {`Enable ${props.mode === "dark" ? "light" : "dark"} Mode`}
+                    {`Enable ${ props.mode === "dark" ? "light" : "dark"} Mode`}
                   </button>
                 </li>
                 <li className="list nav_item">
@@ -120,7 +121,7 @@ const Navbar = forwardRef ((props,ref) =>  {
                 <li className="list nav_item">
                   <a href="#Goals" className="nav_link">
                     <span className="icon">
-                      <ServicesIcon style={{ width: "1em", height: "1em" }} />
+                      <CertifyIcon style={{ width: "1.1em", height: "1.1em",fill:'black' }} />
                     </span>
                     <span className="text">Certificates</span>
                     <span className="circle"></span>
