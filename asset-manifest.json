@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.bd5f38b4.css",
-    "main.js": "/my-portfolio/static/js/main.37a503a5.js",
+    "main.css": "/my-portfolio/static/css/main.04891567.css",
+    "main.js": "/my-portfolio/static/js/main.f41d9723.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Screenshot 2023-06-24 214030.png": "/my-portfolio/static/media/Screenshot 2023-06-24 214030.6f1dd28b73fbeb3a55cd.png",
     "static/media/Shivam2.png": "/my-portfolio/static/media/Shivam2.8420910fa8b4774001e4.8420910fa8b4774001e4.png",
@@ -14,7 +14,9 @@
     "static/media/Shivam2CV.pdf": "/my-portfolio/static/media/Shivam2CV.2f99bc9b5d9bd1ecd1ea.pdf",
     "static/media/Screenshot 2023-06-24 213546.png": "/my-portfolio/static/media/Screenshot 2023-06-24 213546.4491e014e80ef1f1ef73.png",
     "static/media/Untitled design (14).png": "/my-portfolio/static/media/Untitled design (14).3e5b8396bf4f23108bb9.3e5b8396bf4f23108bb9.png",
+    "static/media/Screenshot 2023-07-09 232741.png": "/my-portfolio/static/media/Screenshot 2023-07-09 232741.acc67f4dc5f086dabb44.png",
     "static/media/Screenshot 2023-06-24 223002.png": "/my-portfolio/static/media/Screenshot 2023-06-24 223002.23fab39fa7b184326cb1.png",
+    "static/media/Screenshot 2023-07-10 003343.png": "/my-portfolio/static/media/Screenshot 2023-07-10 003343.e686f900fad55c95cd98.png",
     "static/media/4168559_design_drum_drums_instrument_kit_icon.svg": "/my-portfolio/static/media/4168559_design_drum_drums_instrument_kit_icon.5aac637c0a34b7a328d45e260de4b81a.svg",
     "static/media/mountain.svg": "/my-portfolio/static/media/mountain.76b1aa14752cf876f23d028f02e51c80.svg",
     "static/media/1679629_city_decorate_decoration_snow_snowglobe_icon.svg": "/my-portfolio/static/media/1679629_city_decorate_decoration_snow_snowglobe_icon.da81af2b3e291e24d72739db91d332e6.svg",
@@ -55,12 +57,12 @@
     "static/media/icons8-html.svg": "/my-portfolio/static/media/icons8-html.c1bb84e022ca9d76984d4b943bd678fd.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/user-solid.svg": "/my-portfolio/static/media/user-solid.25c7a2c4478e96f8be7eddc9f7c01f5b.25c7a2c4478e96f8be7eddc9f7c01f5b.svg",
     "static/media/chevron-down-solid.svg": "/my-portfolio/static/media/chevron-down-solid.fd5f90d259cad6aba6e19ae5618fdb72.fd5f90d259cad6aba6e19ae5618fdb72.svg",
-    "main.bd5f38b4.css.map": "/my-portfolio/static/css/main.bd5f38b4.css.map",
-    "main.37a503a5.js.map": "/my-portfolio/static/js/main.37a503a5.js.map",
+    "main.04891567.css.map": "/my-portfolio/static/css/main.04891567.css.map",
+    "main.f41d9723.js.map": "/my-portfolio/static/js/main.f41d9723.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd5f38b4.css",
-    "static/js/main.37a503a5.js"
+    "static/css/main.04891567.css",
+    "static/js/main.f41d9723.js"
   ]
 }
