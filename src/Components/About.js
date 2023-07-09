@@ -7,7 +7,7 @@
 import React, { forwardRef } from 'react'
 import './About.css'
 import { ReactComponent as AboutIcon } from './Icons/user-solid.25c7a2c4478e96f8be7eddc9f7c01f5b.svg';
-import myPdf from './Icons/Shivam1CV (1).pdf'
+import myPdf from './Icons/Shivam2CV.pdf'
 import './Icons/Shivam2.8420910fa8b4774001e4.png'
 import myImage from './Icons/Untitled design (14).3e5b8396bf4f23108bb9.png'
 

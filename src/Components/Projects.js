@@ -4,6 +4,8 @@ import { ReactComponent as ArrowIcon } from './Icons/chevron-down-solid.fd5f90d2
 import shivifyImage from './Icons/Screenshot 2023-06-24 213546.png'
 import sheaterImage from './Icons/Screenshot 2023-06-24 214030.png'
 import tectUtilesImage from './Icons/Screenshot 2023-06-24 223002.png'
+import hireyCoonImage from './Icons/Screenshot 2023-07-09 232741.png'
+import listImage from './Icons/Screenshot 2023-07-10 003343.png'
 
 
 const Projects = forwardRef ((props,ref) => {
@@ -92,6 +94,38 @@ const Projects = forwardRef ((props,ref) => {
                         <li>Technologies - <span> React </span></li>
                         <li>Deployed - <span> https://shivu-16.github.io/</span></li>
                         <li>View-<span><a href='https://shivu-16.github.io/TextUtils/'>https://shivu-16.github.io/TextUtils/</a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className='projects_card all react_projects active_work'>
+                <h3 className='projects_title'> To Do list - Deluxe </h3>
+                <img className='projects_img' src={listImage} alt='project 3' style={{height:'250px', width:'350px'}}></img>
+                <span className='projects_button'> <a href='https://shivu-16.github.io/assignment-2/'> Demo </a> <ArrowIcon className='arrow_icon' style={{height : '0.8rem' , width : '0.8rem' , transform:'rotate(270deg)'}}/> </span>
+                <div className='projects_details'>
+                    <h3 className='details_title'> TextUtiles - Text Editor </h3>
+                    <p className='details_description'> This is site where you can play with text</p>
+                    <ul className='details_info'>
+                        <li>Created - <span> May 28th, 2023 </span></li>
+                        <li>Technologies - <span> React </span></li>
+                        <li>Deployed - <span> https://shivu-16.github.io/</span></li>
+                        <li>View-<span><a href='https://shivu-16.github.io/assignment-2/'>https://shivu-16.github.io/assignment-2/</a></span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className='projects_card all react_projects active_work'>
+                <h3 className='projects_title'> HireyCoon </h3>
+                <img className='projects_img' src={hireyCoonImage} alt='project 3' style={{height:'250px', width:'350px'}}></img>
+                <span className='projects_button'> <a href='https://shivu-16.github.io/hireyCoon/'> Demo </a> <ArrowIcon className='arrow_icon' style={{height : '0.8rem' , width : '0.8rem' , transform:'rotate(270deg)'}}/> </span>
+                <div className='projects_details'>
+                    <h3 className='details_title'> TextUtiles - Text Editor </h3>
+                    <p className='details_description'> This is site where you can play with text</p>
+                    <ul className='details_info'>
+                        <li>Created - <span> May 28th, 2023 </span></li>
+                        <li>Technologies - <span> React </span></li>
+                        <li>Deployed - <span> https://shivu-16.github.io/</span></li>
+                        <li>View-<span><a href='https://shivu-16.github.io/hireyCoon/'>https://shivu-16.github.io/hireyCoon/</a></span></li>
                     </ul>
                 </div>
             </div>

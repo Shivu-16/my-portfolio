@@ -3,6 +3,10 @@
     /* width: 100vw; */
 }
 
+.section.projects{
+    height: 200vh;
+}
+
 .arrows_icon{
     margin: none;
     fill:#012557;
@@ -11,7 +15,7 @@
 .projects_container{
     /* margin-left: 70px; */
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3rem;
@@ -60,8 +64,8 @@
     padding-bottom: 15px;
 }
 
-.projects_titles{
-    margin-top: 20px;
+.projects_title{
+    margin-top: auto;
 }
 
 .projects_img{
@@ -108,7 +112,6 @@
 .projects_container .active_work{
     transition: 1s;
     display: flex;
-
 }
 
 .projects_button a{

@@ -121,7 +121,7 @@ const Navbar = forwardRef ((props,ref) =>  {
                 <li className="list nav_item">
                   <a href="#Goals" className="nav_link">
                     <span className="icon">
-                      <CertifyIcon style={{ width: "1.1em", height: "1.1em",fill:'black' }} />
+                      <CertifyIcon style={{ width: "1.1em", height: "1.1em", fill:'black' }} />
                     </span>
                     <span className="text">Certificates</span>
                     <span className="circle"></span>

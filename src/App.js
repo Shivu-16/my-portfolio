@@ -138,9 +138,9 @@ function App() {
         document.body.classList.add('lightThree');
       } else if (scrollY > (a + 3 * win) && scrollY < (a + 4 * win)) {
         document.body.classList.add('lightFour');
-      } else if (scrollY > (a + 4 * win) && scrollY < (a + 5 * win)) {
+      } else if (scrollY > (a + 4 * win) && scrollY < (a + 6 * win)) {
         document.body.classList.add('lightFive');
-      } else if (scrollY > (a + 5 * win) && scrollY < (a + 6 * win)) {
+      } else if (scrollY > (a + 6 * win) && scrollY < (a + 7 * win)) {
         document.body.classList.add('lightSix');
       }
     } else {

@@ -21,6 +21,10 @@ li:hover {
     transform: translateX(20px) !important;
 }
 
+.navbar{
+    position: relative;
+}
+
 nav{
     position: absolute;
     top: 0;
@@ -171,4 +175,3 @@ button{
     background-color: white;
     color:black;
 }
-

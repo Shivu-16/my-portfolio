@@ -10,7 +10,7 @@ import imgSix from './Icons/problem_solving_intermediate certificate.jpg'
 const Goals = forwardRef ((props,ref) =>  {
   return (
     <>
-    <section className='Goals section' id='Goals' ref={ref} >
+    <section className='goals section' id='Goals' ref={ref} >
         <h2 className='section_title' data-heading="HackerRank">My  certificates</h2>
 
         <div className='wrapper'>

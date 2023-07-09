@@ -8,6 +8,10 @@
     overflow: hidden;
 }
 
+.goals{
+    overflow-x: hidden;
+}
+
 .slide-track{
     display: flex;
     width: calc(500px * 6);
@@ -51,5 +55,7 @@
     width: auto;
     padding: 0;
   }
+
+
 
 

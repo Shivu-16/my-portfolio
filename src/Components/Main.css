@@ -1,34 +1,31 @@
-
-.main{
-    /* background-color: #D7F4FB ; */
+.main {
     height: 100vh;
 }
 
-.container{
-    max-width:1250px;
+.container {
+    max-width: 1250px;
     margin-left: 25px !important;
     margin-right: auto;
 }
 
-.grid{
+.grid {
     display: grid;
 }
 
-.home{
-    /* background-image: url('./Icons/Untitled design (14).3e5b8396bf4f23108bb9.png'); */
+.home {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
     height: 98vh;
 }
 
-.home_container{
+.home_container {
     position: relative;
     height: 100%;
     align-items: center;
 }
 
-.home_social{
+.home_social {
     position: absolute;
     top: 1.8rem;
     left: 0;
@@ -37,51 +34,49 @@
     column-gap: 3.5rem;
 }
 
-.home_social-follow{
+.home_social-follow {
     font-size: 24px;
     font-weight: 600;
     color: #012557;
     position: relative;
 }
 
-.home_social-follow::after{
+.home_social-follow::after {
     content: '';
     position: absolute;
     width: 1rem;
     height: 2px;
-    background-color:#012557;
+    background-color: #012557;
     right: -35%;
     top: 50%;
 }
 
-.home_social-links{
+.home_social-links {
     display: inline-flex;
     column-gap: 1.5rem;
-    fill:#012557;
-    transition: 0.4s ;
+    fill: #012557;
+    transition: 0.4s;
 }
 
-.home_social-link:hover{
+.home_social-link:hover {
     transition: 0.4s;
-    /* width: 2em !important;
-    height: 2em !important; */
     transform: translateY(4px);
 }
 
-.home_title{
-    font-size: 50px ;
+.home_title {
+    font-size: 50px;
     margin-bottom: 5px;
 }
 
-.home_subtitle{
+.home_subtitle {
     font-size: 34px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
-.button{
+.button {
     max-width: 500px;
-    background-color:#012557;
+    background-color: #012557;
     width: 200px;
     height: 45px;
     border-radius: 5px;
@@ -90,8 +85,8 @@
     transition: 0.4s;
 }
 
-.Btn{
-    fill : #D7F4FB;
+.Btn {
+    fill: #D7F4FB;
     padding-right: 5px;
     padding-top: 3px;
     margin-left: 5px;
@@ -102,14 +97,14 @@
     z-index: 1;
 }
 
-.button:hover{
+.button:hover {
     background-color: #a5c0c7;
     color: #012557;
-    transition: 0.4s ;
+    transition: 0.4s;
     transform: scale(1.1);
 }
 
-.button:hover .Btn{
+.button:hover .Btn {
     fill: #012557;
     width: 1.2em !important;
     height: 1.2em !important;
@@ -134,53 +129,49 @@
     height: 100%;
 }
 
-.home_description{
+.home_description {
     font-size: 20px;
     max-width: 400px;
     margin-bottom: 25px;
 }
 
-
-
-.my_info{
-    display:flex;
+.my_info {
+    display: flex;
     column-gap: 1.8rem;
     position: absolute;
     left: 0;
-    bottom:1.8rem;
+    bottom: 1.8rem;
 }
 
-.info_item{
+.info_item {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-.info_icon{
-    fill:#012557;
+.info_icon {
+    fill: #012557;
     font-size: 1.8rem;
     padding-right: 7px;
 }
 
-.Facebook{
+.Facebook {
     fill: #012557;
 }
 
-.Whatsapp{
-    fill:#02bd3a;
+.Whatsapp {
+    fill: #02bd3a;
 }
 
-.Email{
-    fill:#cd211b;
+.Email {
+    fill: #cd211b;
 }
 
-.Facebook:hover{
-
+.Facebook:hover {
     background-color: #a5c0c7;
 }
 
-
-
-.parallax{
+.parallax {
     /* position: absolute; */
 }
+
