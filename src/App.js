@@ -1,4 +1,5 @@
 import "./App.css";
+import { ReactComponent as BarsIcon } from "./Components/Icons/bars-solid.svg";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Goals from "./Components/Goals";
@@ -166,6 +167,12 @@ function App() {
 
   return (
     <>
+      <div className="nav_toggle" id="nav_toggle">
+        <BarsIcon
+          className="social_share"
+          style={{ width: "1.5em", height: "1.5em" , fill:"white" }}
+          />
+      </div>
       <Navbar mode={mode} toggleMode={toggleMode} />
       {/* <Breadcrumb/> */}
       <Main ref={mainRef} />

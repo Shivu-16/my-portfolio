@@ -140,12 +140,135 @@ body {
   background-color: rgb(12, 16, 12);
 }
 
-@media screen and (max-width:1408px)  {
-  /* .section{
+@media screen and (max-width:1409px)  {
+  .section{
     overflow-x: hidden;
-  } */
+    /* max-width: 1408px; */
+  }
+
+  *{
+    /* max-width: 1408px; */
+    /* overflow-x:hidden ; */
+  }
+
+  .main{
+    max-width: 1200px;
+  }
+
+  .Contacts.section{
+    margin-bottom: 100px;
+  }
+
+  .home{
+    max-width: 1360px;
+    overflow-x: hidden;
+  }
+
+  .sidebar{
+    position: fixed !important;
+    /* height: 93vh !important; */
+  }
+  .home_container{
+    height:788px !important;
+  }
+  .BG_img{
+    height: 788px !important;
+    width: 788px !important;
+  }
+  .about_container{
+    column-gap: 0!important;
+  }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1250px) {
+  .home_container{
+    height:100% !important;
+  }
+  .BG_img{
+    height: 575px !important;
+    width: 575px !important;
+  }
+  .section{
+    margin-left: 0px !important;
+  }
+  .section.home{
+    margin-left: 10px !important;
+  }
+  .section.about{
+    padding-left: 10px !important;
+  }
+  .projects_card img{
+    height: 200px !important;
+    width: 300px !important;
+  }
+  .goals.section{
+    padding-left: 30px !important;
+  }
+  .info_item{
+    flex-wrap: wrap;
+  }
+  .home_data{
+    transform: translateY(-20px);
+  }
+}
+
+@media screen and (max-width:1015px) {
+  /* .BG_img{
+    height: 383px !important;
+    width: 383px !important;
+  } */
+
+  .home_data{
+    scale: 0.9;
+  }
+
+  .BG_img{
+    scale: 0.96;
+  }
+
+  .about_container.container{
+    scale: 0.95;
+    margin-left: 0 !important;
+  }
+
+  .section{
+    padding-left: 0px !important;
+  }
+
+  .section.about{
+    padding-left: 0px !important;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px !important;
+  }
+
+  .nav_close{
+    display: block;
+  }
+
+  .nav_toggle{
+    display: flex !important;
+    
+  }
+
+  .sidebar{
+    width: 100%;
+    z-index: 999;
+    transition: 0.5s;
+    transform: translateX(-1000%);
+  }
+
+  .show-sidebar{
+    transform: translateX(0);
+  }
+
+  .about_container{
+    grid-template-columns: 1fr;
+  }
   
 }
+

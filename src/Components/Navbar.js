@@ -13,6 +13,7 @@ import { ReactComponent as ContactIcon } from "./Icons/address-book-solid.3ba9d1
 import { ReactComponent as ShareIcon } from "./Icons/share-nodes-solid.5040f8169ff7564d7d7ab24f44c81725.svg";
 import { ReactComponent as SkillsIcon } from "./Icons/ranking-star-solid.efde4640b3683047e5472b2dd197d109.svg";
 import { ReactComponent as CertifyIcon } from "./Icons/certificate-diploma-svgrepo-com.svg";
+import { ReactComponent as CloseIcon } from "./Icons/circle-xmark-solid.svg";
 
 //<MoonIcon className='moon' style={{ width: '1em', height: '1em' }}/>
 
@@ -45,6 +46,7 @@ const Navbar = forwardRef ((props,ref) =>  {
   return (
     <>
     <section className="navbar" id="navbar" ref={ref}>
+      
       <div className="sidebar" id="sidebar"  ref={ref}>
         <nav className="nav">
           <div className="navigation nav_menu">
@@ -141,6 +143,14 @@ const Navbar = forwardRef ((props,ref) =>  {
               </ul>
             </div>
           </div>
+
+          <div className="nav_close" id="nav_close">
+            <CloseIcon
+              className="social_share"
+              style={{ width: "3em", height: "3rem" }}
+            />
+          </div>
+
           <div className="btn_share">
             <ShareIcon
               className="social_share"
@@ -148,6 +158,8 @@ const Navbar = forwardRef ((props,ref) =>  {
               onClick={handleCopy}
             />
           </div>
+
+          
         </nav>
       </div>
     </section>

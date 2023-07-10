@@ -141,6 +141,30 @@ nav:hover{
     text-align: center;
 }
 
+.nav_toggle{
+    height: 32px;
+    width: 36px;
+    cursor: pointer;
+    position: fixed;
+    right: 1.5rem;
+    top: 2rem;
+    background-color: #012557;
+    border-radius: .25rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_close{
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    text-align: center;
+    display: none;
+}
+
 /* dark mode */
 
 

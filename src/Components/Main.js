@@ -56,14 +56,33 @@ const Main = forwardRef((props, ref) => {
   };
 
   useEffect(() => {
-    const bgImg = document.getElementById("parallaxOne");
-    const cnt = document.getElementById("parallaxTwo");
-    window.addEventListener('scroll', () => {
-      let val = window.scrollY;
-      bgImg.style.transform = `translateX(${val}px)`;
-      cnt.style.transform = `translateX(-${val}px)`;
-    });
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const translation = scrollPosition * 0.5; // Adjust the multiplier for the desired parallax effect
+  
+      const bgImg = document.getElementById("parallaxOne");
+      const cnt = document.getElementById("parallaxTwo");
+  
+      bgImg.style.transform = `translate3d(${translation}px, 0, 0)`;
+      cnt.style.transform = `translate3d(${-translation}px, 0, 0)`;
+
+      if (translation > 180) {
+        bgImg.style.display = "none";
+        cnt.style.display = "none";
+      } else {
+        bgImg.style.display = "grid";
+        cnt.style.display = "grid";
+      }
+    };
+  
+    window.addEventListener('scroll', handleScroll);
+  
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
+  
+  
 
   // const bg_img = require('../Icons/bg_img.png')
   return (
@@ -145,10 +164,10 @@ const Main = forwardRef((props, ref) => {
                 detectRetina: true,
             }}
         />
-      <img className='BG_img parallax' src={myImage} id="parallaxOne" alt='none' style={{height:'740px', width:'740px', position:"block",float:'right'}}></img>
+      <img className='BG_img parallax' src={myImage} id="parallaxOne" alt='none' style={{height:'740px', width:'740px', position:"block",float:'right', overflowX:'hidden'}}></img>
       <main className="main" ref={ref}>
         <section className="home section" id="home">
-          <div className="home_container container grid" id="parallaxTwo">
+          <div className="home_container container grid" id="parallaxTwo" style={{overflowX:'hidden'}}>
             <div className="home_social">
               <span className="home_social-follow">Reach me</span>
               <div className="home_social-links">
@@ -217,7 +236,7 @@ const Main = forwardRef((props, ref) => {
                 <div>
                   <h3 className="info_title">Email ID</h3>
                   <span className="info_subtitle">
-                    shivam.sharma.ug21@nsut.ac.in
+                    shivam.sharma.ug21 @nsut.ac.in
                   </span>
                 </div>
               </div>
