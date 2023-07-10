@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.04891567.css",
-    "main.js": "/my-portfolio/static/js/main.f41d9723.js",
+    "main.css": "/my-portfolio/static/css/main.c791c20e.css",
+    "main.js": "/my-portfolio/static/js/main.68982d8e.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Screenshot 2023-06-24 214030.png": "/my-portfolio/static/media/Screenshot 2023-06-24 214030.6f1dd28b73fbeb3a55cd.png",
     "static/media/Shivam2.png": "/my-portfolio/static/media/Shivam2.8420910fa8b4774001e4.8420910fa8b4774001e4.png",
@@ -50,6 +50,8 @@
     "static/media/linkedin.svg": "/my-portfolio/static/media/linkedin.93683c2cc3d5ca884dcf6c3525104a48.93683c2cc3d5ca884dcf6c3525104a48.svg",
     "static/media/book-solid.svg": "/my-portfolio/static/media/book-solid.0619316f07ac60184fe211bfcd95cc9e.0619316f07ac60184fe211bfcd95cc9e.svg",
     "static/media/share-nodes-solid.svg": "/my-portfolio/static/media/share-nodes-solid.5040f8169ff7564d7d7ab24f44c81725.5040f8169ff7564d7d7ab24f44c81725.svg",
+    "static/media/circle-xmark-solid.svg": "/my-portfolio/static/media/circle-xmark-solid.09604adb3df12dcd17b90b933394943f.svg",
+    "static/media/bars-solid.svg": "/my-portfolio/static/media/bars-solid.dd92aed316c5967acbf1f7094cd87de4.svg",
     "static/media/moon-solid.svg": "/my-portfolio/static/media/moon-solid.191a6ba3b222f2772e0b9a7a19200067.191a6ba3b222f2772e0b9a7a19200067.svg",
     "static/media/envelope-solid.svg": "/my-portfolio/static/media/envelope-solid.6345f82ededa4dc800949734956dc764.6345f82ededa4dc800949734956dc764.svg",
     "static/media/square-facebook.svg": "/my-portfolio/static/media/square-facebook.e4d1358060c01a3e706738bb8983b000.e4d1358060c01a3e706738bb8983b000.svg",
@@ -57,12 +59,12 @@
     "static/media/icons8-html.svg": "/my-portfolio/static/media/icons8-html.c1bb84e022ca9d76984d4b943bd678fd.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/user-solid.svg": "/my-portfolio/static/media/user-solid.25c7a2c4478e96f8be7eddc9f7c01f5b.25c7a2c4478e96f8be7eddc9f7c01f5b.svg",
     "static/media/chevron-down-solid.svg": "/my-portfolio/static/media/chevron-down-solid.fd5f90d259cad6aba6e19ae5618fdb72.fd5f90d259cad6aba6e19ae5618fdb72.svg",
-    "main.04891567.css.map": "/my-portfolio/static/css/main.04891567.css.map",
-    "main.f41d9723.js.map": "/my-portfolio/static/js/main.f41d9723.js.map",
+    "main.c791c20e.css.map": "/my-portfolio/static/css/main.c791c20e.css.map",
+    "main.68982d8e.js.map": "/my-portfolio/static/js/main.68982d8e.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04891567.css",
-    "static/js/main.f41d9723.js"
+    "static/css/main.c791c20e.css",
+    "static/js/main.68982d8e.js"
   ]
 }
