@@ -141,7 +141,7 @@ function App() {
         document.body.classList.add('lightFour');
       } else if (scrollY > (a + 4 * win) && scrollY < (a + 6 * win)) {
         document.body.classList.add('lightFive');
-      } else if (scrollY > (a + 6 * win) && scrollY < (a + 7 * win)) {
+      } else if (scrollY > (a + 6 * win) && scrollY < (a + 8 * win)) {
         document.body.classList.add('lightSix');
       }
     } else {
